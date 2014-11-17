@@ -1,0 +1,49 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{german}
+\date{\today}
+\author{Sebastian Buchmann}
+\title{ \LaTeX ~ Übung 5}
+
+\begin{document}
+\maketitle
+\section{1 Abschnitt}
+
+Mein erster Abschnitt
+
+
+\section{Tabelle}
+Hier kommt die Tabelle \ref{tab:Punkte}
+\begin{table} [h]
+\centering
+\begin{tabular} {c|c|c|c} 
+
+{} & {Punkte erhalten}  & {Punkte möglich} & {\%}   \\
+\hline
+
+Aufgabe 1 & 4 & 4 & 1 \\
+Aufgabe 2 & 3 & 3 & 1 \\
+Aufgabe 3 & 3 & 3 & 1 \\
+
+
+\end{tabular}
+
+\caption{Hier ist die beschriftung}
+\label{tab:Punkte}
+\end{table}
+\section{Formeln}
+
+\subsection{Pytagoras}
+ Der Satz des Pytagoras lautet $ a^2 + b^2 = c^2$ Für die Hypothenuse gilt folglich $c = \sqrt{a^2+b^2}$
+ 
+\subsection{Summen}
+
+Formel für die Summe: \\
+\begin{equation}
+ s= \sum\limits_{i=1}^{n} = \frac{n*(n+1)}{2}   
+\centering
+\end{equation}
+
+
+
+\end{document}
